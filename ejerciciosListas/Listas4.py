@@ -12,5 +12,3 @@ for i in range (1,n+1):
    if primo == True:
       list.append(i)
 print(f'Primos hasta {n}: {list}')
-
-
