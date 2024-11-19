@@ -3,7 +3,7 @@ usuarios= {
         'nombre':'Carmen',
         'ocupación':'estudiante',
         'aficiones': ['cocinar','coser','viajar'],
-        'edad':17
+        'edad':'17'
     }
 }
 while True:
@@ -20,7 +20,7 @@ while True:
                 'nombre':input('introduce el nombre: '),
                 'ocupación':input('introduce su ocupación: '),
                 'aficiones': input('introduce tres aficiones separadas con comas: '). split(','),
-                'edad': int(input('introduce tu edad: '))
+                'edad': input('introduce tu edad: ')
                 }
         case 3:
             borrar=input('Qué usuario quieres borrar? ')
@@ -36,7 +36,9 @@ while True:
             else :
                 print('Este usuario no existe')
         case 5:
-              
-
+             with open('ejerciciosFicheros/usuarios.dat','w') as f:
+                  for clave,valor in usuarios.items():
+                       f.write(clave+'\n')
+                       f.write(str(valor)+'\n')
         case 6: 
             break
