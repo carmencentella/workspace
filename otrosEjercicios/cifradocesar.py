@@ -1,5 +1,7 @@
 alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-def cesar(texto,desplazamiento):
+def cesar(texto,desplazamiento,direccion):
+    if direccion=='decodifica':
+        desplazamiento*=-1
     palabra=""
     for letra in texto:
         posicion=alfabeto.index(letra)
@@ -28,7 +30,4 @@ def descodifica(texto,desplazamiento):
 direccion = input("Escribe 'codifica' para codificar o 'decodifica' para decodificar: ")
 texto = input("Escribe tu mensaje: ").lower()
 desplazam = int(input("Escribe un número para el desplazamiento: "))
-if direccion=='codifica':
-    print(codifica(texto,desplazam))
-if direccion=='descodifica':
-    print(descodifica(texto,desplazam))
+print(cesar(texto,desplazam,direccion))
