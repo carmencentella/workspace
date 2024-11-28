@@ -1,6 +1,5 @@
 import csv
 from datetime import datetime
-
 from matplotlib import pyplot as plt
 
 nombreFichero = 'datos/sitka_weather_2018_simple.csv'

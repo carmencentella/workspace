@@ -1,0 +1,12 @@
+QUÉ ES UNA API
+Aprovechar desarrollo de otras empresas para tu programa. Hacer que tu aplicación se pueda conectar con otras
+TERMINOLOGIA
+interfaz: capa de abstraccion para que se comuniquen dos sistemas
+servivio web: para comunicar dispositivos remotos
+api: interfaz (application programming interface). Publico o privado
+    rest: tipo de api. arquitectura.(representational state transfer). pueen guardares los datos,defines datos que permites que otra aplicacion acceda
+    JSON: (javascript object notation)
+    Token: objeto que contiene datos de autentificación 'contraseña'
+TIPOS DE API:
+Locales: 
+Remotas: consumes datos de una aplicacion que esta en otro lugar. se basa en servicios web.
