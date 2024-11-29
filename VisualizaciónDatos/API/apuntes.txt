@@ -1,3 +1,4 @@
+ 
 QUÉ ES UNA API
 Aprovechar desarrollo de otras empresas para tu programa. Hacer que tu aplicación se pueda conectar con otras
 TERMINOLOGIA
@@ -8,5 +9,5 @@ api: interfaz (application programming interface). Publico o privado
     JSON: (javascript object notation)
     Token: objeto que contiene datos de autentificación 'contraseña'
 TIPOS DE API:
-Locales: 
+Locales:
 Remotas: consumes datos de una aplicacion que esta en otro lugar. se basa en servicios web.
