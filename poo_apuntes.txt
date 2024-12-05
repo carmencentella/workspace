@@ -1,0 +1,11 @@
+OBJECT-ORIENTED PROGRAMMING
+What is it useful for?
+Object-oriented programming has 4 advantages to it:
+Encapsulation: The objects' state is private and other objects can't interact with it unless particularly mentioned.
+Abstraction: Only the main mechanisms of objects are shown in the code, as larger codes can get difficult to understand
+    when there's many objects in them.
+Inheritance: Helps when we have many objects with some resemblances. We can create a class and then form other classes
+    based on this one, thus reusing its code. However the second class created can also create its own methods.
+Polymorphism: When we have our first class and then the other classes that are based on this one, polymorphism allows
+    us to adapt the first class' methods to the latter classes characteristics.
+
